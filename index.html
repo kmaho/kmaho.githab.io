@@ -4,12 +4,81 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="keywords" content="ポートフォリオ,二児の母,初心者">
+    <meta name="description" content="kmahoのポートフォリオ。作成したプログラムを公開しています。">
+    <title>プロフィール | kmahoのポートフォリオ</title>
+    <!-- BootstrapのCSS読み込み -->
+　　<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+　　<!-- jQuery読み込み -->
+　　<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+　　<!-- BootstrapのJS読み込み -->
+　　<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+　　<style>
+　　* {
+     margin: 0;
+     padding: 0;
+    }
+    .jumbotron {
+      background-image: url("hitsuji.jpg");
+      background-position: center center;
+      background-size: cover;
+      color: #000;
+      padding-bottom: 300px;
+    }
+    section{
+      color: #fff;
+    }
+    footer {
+      padding: 10px 0;
+      font-size: 93%;
+      text-align: center;
+      background-color: #000;
+      color: #666;
+    }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">kmaho</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">ホーム</a></li>
+              <li class="active"><a href="#">プロフィール</a></li>
+              <li><a href="#">作品</a></li>
+            </ul>  
+              <button type="button" class="btn btn-default navbar-btn">
+              <span class="glyphicon glyphicon-envelope"></span>
+              </button>
+    <header class="jumbotron">
+      <div class="container">
+        <h2>プログラマーになる</h2>
+        <p>「君には夢はないの？」長い間夢を持たないことに疑問を感じたことがなかった。初めてかなえた夢。</p>
+      </div>
+    </header>
+     <section>
+       <h3>プロフィール</h3>
+       <h4>小林　麻帆</h4>
+        <p>埼玉県出身。二児の母。フリーランスで活動中。</p>
+        <p>私のポートフォリオを見て気になった方は、<a href="mail.html">Mail</a>よりご連絡お願い致します。</p>
+        <h4>リンク</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/mahokobayashi" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/mahokobayashi" target="_blank">Twitter</a></li>
+          <li><a href="https://instagram.com/mahokobayashi" target="_blank">Instagram</a></li>
+          <li><a href="https://github.com/kmaho" target="_blank">Github</a></li>
+        </ul>
+     </section>
+        <footer>
+          <p>&copy; 2015 Maho Kobayashi.</p>
+        </footer>
   </body>
 </html>
